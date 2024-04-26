@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume</title>
+    <style>
+        /* Add any additional styling here */
+        .resume {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        .resume-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .resume-photo {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <div class="resume-header">
+            <div>
+                <h1>Name: John Doe</h1>
+                <p>Employee ID: 123456</p>
+                <p>Title: Software Developer</p>
+                <p>Position: Full Stack Developer</p>
+                <p>Phone: 123-456-7890</p>
+                <p>Email: john.doe@example.com</p>
+            </div>
+            <!-- <img class="resume-photo" src="data:4.png;based64" alt="Profile Photo"> -->
+            <img class="resume-photo" src="3.jpg" alt="Profile Photo">
+        </div>
+        <!-- Add the rest of your resume content here -->
+        <!-- Hello <%= 4+7  %> -->
+
+        <%=message%>
+        <%=locals.message || 'Default String' %>
+    </div>
+</body>
+</html>
